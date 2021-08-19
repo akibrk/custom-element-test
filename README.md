@@ -1,24 +1,22 @@
 # custom-element-test
+Custom elements not able to parse props
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Builds and copies the files to be served
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run build:demo
 ```
 
-### Lints and fixes files
+## To see the demo
 ```
-npm run lint
-```
+cd build && npx http-server
+``
+
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
