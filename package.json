@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "clean": "cross-var \"rm build/*.{js,map}\"",
+    "clean": "cross-var \"rm demo/*.{js,map}\"",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib ./src/main.ts --name ce-test",
-    "build:demo": "cross-var \"npm run clean && npm run build && cp -r dist/*.{js,map} build/\"",
+    "build:demo": "cross-var \"npm run clean && npm run build && cp -r dist/*.{js,map} demo/\"",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

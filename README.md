@@ -1,5 +1,6 @@
 # custom-element-test
-Custom elements not able to parse props
+CSS path not resolved, background-img urls and @import paths are not resolved. 
+Unable to load images/stylesheets through style tags.
 
 ## Project setup
 ```
@@ -10,6 +11,12 @@ npm install
 ```
 npm run build:demo
 ```
+
+## If that doesn't work just run
+```
+npm run build
+```
+and copy the output into the demo folder
 
 ## To see the demo
 ```

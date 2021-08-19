@@ -1,6 +1,5 @@
 import { defineCustomElement } from 'vue'
 import Component from './custom-element.ce.vue'
-
 const CustomComponent = defineCustomElement(Component);
 
 // Registers the custom element if its' not yet registered
