@@ -2671,13 +2671,13 @@ function _typeof(obj) {
 
   return _typeof(obj);
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/custom-element.ce.vue?vue&type=template&id=0c816a67
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/custom-element.ce.vue?vue&type=template&id=64a140d2
 
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("div", null, "hello " + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])(_ctx.dataName) + " and type of prop " + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])(_typeof(_ctx.dataName)), 1);
 }
-// CONCATENATED MODULE: ./src/custom-element.ce.vue?vue&type=template&id=0c816a67
+// CONCATENATED MODULE: ./src/custom-element.ce.vue?vue&type=template&id=64a140d2
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--14-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/ts-loader??ref--14-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/custom-element.ce.vue?vue&type=script&lang=ts
 
@@ -2696,17 +2696,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 }));
 // CONCATENATED MODULE: ./src/custom-element.ce.vue?vue&type=script&lang=ts
  
-// CONCATENATED MODULE: ./node_modules/vue-loader-v16/dist/styleInlineLoader.js!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-2!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/custom-element.ce.vue?vue&type=style&index=0&id=0c816a67&inline&lang=scss
-/* harmony default export */ var custom_element_cevue_type_style_index_0_id_0c816a67_inline_lang_scss = ("#app{font-family:Avenir, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50;margin-top:60px}\n");
-// CONCATENATED MODULE: ./src/custom-element.ce.vue?vue&type=style&index=0&id=0c816a67&inline&lang=scss
- 
 // CONCATENATED MODULE: ./src/custom-element.ce.vue
 
 
 
-
-
-custom_element_cevue_type_script_lang_ts.styles = [custom_element_cevue_type_style_index_0_id_0c816a67_inline_lang_scss]
 custom_element_cevue_type_script_lang_ts.render = render
 
 /* harmony default export */ var custom_element_ce = (custom_element_cevue_type_script_lang_ts);
