@@ -1,17 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div>hello {{ dataName }} and type of prop {{ typeof dataName }}</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
-
 export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'ce-test',
+  props: {
+    dataName: {
+      type: String,
+      required: true,
+    },
+  },
+  mounted() {
+    console.log(typeof this.dataName);
+  },
 });
 </script>
 

@@ -1,4 +1,19 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { defineCustomElement } from 'vue'
+import Component from './custom-element.ce.vue'
 
-createApp(App).mount('#app')
+const CustomComponent = defineCustomElement(Component);
+
+// Registers the custom element if its' not yet registered
+try {
+    const isDefined = customElements.get(Component.name);
+    if (!isDefined) {
+        console.log('defining custom-element');
+        customElements.define(Component.name, CustomComponent);
+    }
+
+} catch (error) {
+    console.error(error);
+}
+
+
+
